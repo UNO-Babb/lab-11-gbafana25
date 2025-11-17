@@ -1,0 +1,3 @@
+## Summary
+
+Environments in simpy are able to create timed simulations with any data structure in Python. I added a section to the `processResults` function that calculates the average number of items assigned to a shopper. I found it interesting that there was no clear way to control the exact number of shoppers, just the time the simulation ran. As the number of checkers increased, the total idle time greatly increased, while the average wait time with fewer checkers didn't increase as much.
